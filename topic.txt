@@ -1,6 +1,6 @@
 Команда консоли, которой был создан топик:
 
-kafka-topics.sh --create --topic firs_topic --bootstrap-server localhost:9092 --partitions 3 --replication-factor 2
+kafka-topics.sh --create --topic first-topic --bootstrap-server localhost:9092 --partitions 3 --replication-factor 2
 
 Подробная информация о созданном топике:
 
