@@ -1,0 +1,13 @@
+Команда консоли, которой был создан топик:
+
+kafka-topics.sh --create --topic firs_topic --bootstrap-server localhost:9092 --partitions 3 --replication-factor 2
+
+Подробная информация о созданном топике:
+
+kafka-topics.sh --describe --topic first-topic --bootstrap-server localhost:9092
+
+Topic: first-topic	TopicId: U9dLE7nPRCSYPB0xkpjaag	PartitionCount: 3	ReplicationFactor: 2	Configs: 
+	Topic: first-topic	Partition: 0	Leader: 2	Replicas: 2,0	Isr: 2,0
+	Topic: first-topic	Partition: 1	Leader: 0	Replicas: 0,1	Isr: 0,1
+	Topic: first-topic	Partition: 2	Leader: 1	Replicas: 1,2	Isr: 1,2
+
